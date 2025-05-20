@@ -70,6 +70,10 @@ augroup ShowInvisibleChars
   autocmd InsertLeave * set nolist
 augroup END
 
+<b>== Colocar el tab a 4 ==</b>
+
+:%s/^\( \{2}\)*/\=repeat(' ', len(submatch(0)) * 2)/g
+
 <hr/>
 <b id="#links">== List links ==</b>
 
