@@ -7,9 +7,9 @@ function randomString() {
     randomStr += characters.charAt(Math.floor(Math.random() * characters.length));
   }
 
-  console.log("L4D2#" + randomStr);
+  console.log('L4D2#' + randomStr);
 
-  return 'L4D2#' + randomStr;
+  //return 'L4D2#' + randomStr;
 }
 
 randomString();
